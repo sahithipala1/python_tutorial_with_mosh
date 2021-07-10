@@ -6,3 +6,9 @@ if unit.upper() == "k":
 else: 
     converted = x * 0.45
     print("Weight in kgs:" + str(converted))  
+    
+    
+i = 1
+while i<= 20:
+    print(i * '*')
+    i = i + 2
